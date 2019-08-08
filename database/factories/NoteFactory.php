@@ -19,5 +19,6 @@ use Carbon\Carbon;
 
 $factory->define(Note::class, function (Faker $faker) {
     return [
+        'name' => $faker->name()
     ];
 });
